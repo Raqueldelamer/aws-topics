@@ -14,9 +14,9 @@
 - In Block public access (bucket settings) , click Edit and uncheck "Block all public access" 
 - Save changes 
 
-## **Create a Bucket Policy**
+## **Create a S3 Bucket Policy**
 - Step 1: On AWS Policy Generator, Select Policy Type => choose S3 Bucket Policy
-- Step 2: Add Statements (Effect => Allow: Principal=> *: AWS Service => Amazon S3:
+- Step 2: Add Statements (Effect => Allow | Principal=> * | AWS Service => Amazon S3 |
     Actions => GetObject)
 - Step 3: Generate an Amazon Resource Name (ARN) 
 
